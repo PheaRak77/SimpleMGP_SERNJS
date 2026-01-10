@@ -1,5 +1,12 @@
+
+
+
+
+
+
+
 node_modules
 .env
-db.js
+
 seedAdmin.js
-resetPassword.js
+resetPassword.js.env
