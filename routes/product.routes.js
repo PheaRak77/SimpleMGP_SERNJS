@@ -11,7 +11,7 @@ const isAdmin = require("../middleware/isAdmin");
 
 const router = express.Router();
 
-router.get("/", auth, getProducts);
+router.get("/", getProducts);
 router.get("/:id", auth, getProductById);
 router.post("/", auth, isAdmin, createProduct);
 router.put("/:id", auth, isAdmin, updateProduct);
